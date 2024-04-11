@@ -1,0 +1,44 @@
+# Ignore node_modules directory
+node_modules
+
+# Ignore build output
+/dist
+/tmp
+/out-tsc
+
+# Ignore log files and other generated files
+*.log
+npm-debug.log*
+
+# Ignore environment files
+/src/environments/*.ts
+
+# Ignore Angular generated files
+/.angular
+/.vscode
+/.idea
+/.ng-mocks
+/.ngPackagr
+/.ng_bootstrap
+/*.tgz
+
+# Ignore local configuration files
+.npmrc
+package-lock.json
+
+# Ignore editor-specific files
+.vscode
+.idea
+*.sublime-workspace
+
+# Ignore generated files for testing
+/karma-coverage
+/.nyc_output
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
