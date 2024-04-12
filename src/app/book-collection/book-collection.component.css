@@ -8,7 +8,7 @@
     position: relative;
   }
   
-
+  
   .book-item p {
     font-size: 20px;
     font-weight: bold;
@@ -16,13 +16,13 @@
     margin-bottom: 10px;
   }
   
-
+  
   .book-item span {
     font-size: 16px;
     color: #666;
   }
   
-
+  
   .book-item button {
     background-color: #ff5f6d;
     color: white;
@@ -42,7 +42,7 @@
     transform: scale(1.05);
   }
   
-
+  
   @media (max-width: 768px) {
     .book-item {
       padding: 15px;
